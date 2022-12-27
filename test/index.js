@@ -96,7 +96,7 @@ function middleware(req, res, next) {
         }
     } else {
         res.status(403).json({
-            //error: 'SQL Detected in Request, Rejected.'
+            //error: 'SQL Detected in Request, Rejected.' 
             error: 'Rejected. 1099922'
         });
     }
